@@ -13,4 +13,4 @@ df['ROI'] = (df['BoxOfficeCollection'] - df['Budget']) / df['Budget']
 top_10_roi = df.sort_values(by='ROI', ascending=False).head(10)
 
 
-print(top_10_roi[['MovieName', 'BoxOfficeCollection', 'ROI']])
+print(top_10_roi[['MovieName', 'BoxOfficeCollection', 'Budget', 'ROI']])
