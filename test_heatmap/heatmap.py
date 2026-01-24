@@ -10,13 +10,7 @@ data_dic = {
 }
 
 df = pd.DataFrame(data_dic)
-
-
+ 
 sns.heatmap(df, annot=True, cmap='inferno', fmt='d', linewidths=0.5)
-
-
-
 plt.tight_layout()
-
-
 plt.show()

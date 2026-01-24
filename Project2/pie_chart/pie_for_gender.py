@@ -6,7 +6,7 @@ df = pd.read_csv("/Users/macbookair/Desktop/Data_visualization/Project2/Students
 gender_counts=df['gender'].value_counts()
 
 
-plt.pie(gender_counts,labels=gender_counts.index,autopct='%1.1f%%',colors=['pink','purple'])
+plt.pie(gender_counts,labels=gender_counts.index,autopct='%1.1f%%',colors=['pink','gold'])
 
 
 
